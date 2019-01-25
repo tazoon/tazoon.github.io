@@ -1,0 +1,130 @@
+body {
+  margin:0px;
+}
+.courget {
+  
+font-family: 'Courgette', cursive;
+font-weight: 300;
+  }
+ .oswald {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 250;
+} 
+/******************************************    GENERAL  ****************************/
+.dern {
+  text-align: center; 
+}
+
+
+.dern h3 {
+  padding-top:50px;
+  padding-bottom:10px;
+}
+
+.imgo {
+  width:430px;
+  height:280px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+ /******************************************   HEADER   ****************************/
+  .bg-dark {
+    background-color:rgba(0,0,0,.075)!important;
+  }
+  .bg-header {
+  margin-bottom: -200px;
+  
+  }
+
+.bg-img {
+  height: 500px;
+    background-image: url("../img23jan/header.jpg");
+    background-position:center center;
+    filter: brightness(20%);
+    /* max-width: 100% */
+  }
+  .navbar {
+    background-color:rgba(59, 51, 51, 0.3);
+    border-bottom: gray solid 0.5px;
+    margin-top:-65px;
+    position:relative;
+    left: 0px;
+    top: 65px;
+     z-index: 1;  
+  }
+  .logoo {
+    /* background-color:rgba(0,0,0,.075); */
+     position:relative;
+    left: 0px; 
+    top: -350px;
+     z-index: 1; 
+    color:white;
+    text-align:center;
+   
+  }
+.logoo img{
+  width: 70px;
+  height:80px;
+  Padding-bottom:15px;
+}
+/******************************************   CENTER   ****************************/
+
+.side {
+  margin:0px 13px 0px 13px;
+}
+
+section {
+  padding-bottom:30px;
+}
+
+
+/******************************************   FOOTER  ****************************/
+
+footer {
+  background-color: black;
+  color:white;
+  padding:40px 10px 40px 10px;
+  margin-left:-30px;
+}
+
+.block li{
+  display:inline;
+ 
+}
+
+
+.fab {
+  margin: 1px 0px;
+  background-color:white;
+  padding:8px;
+  color:black;
+}
+.side ul li a {
+  color:white;
+ 
+
+}
+.side ul li {
+  list-style:none;
+  text-align:left;
+  text-decoration: underline;
+}
+.mb-3 {
+  padding-left: 37px;
+  width: fit-content;
+ }
+ .btn-outline-secondary {
+  color: white;
+  border: white solid 0.5PX;
+  border-radius: 5px;
+ } 
+ .input-group>.form-control:not(:last-child) 
+{
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+} 
+.line {
+  text-align:left;
+  padding-left: 37px;
+}
+
